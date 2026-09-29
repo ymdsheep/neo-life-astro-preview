@@ -1,7 +1,7 @@
 [hidden] { display: none !important; }
 html { scroll-behavior: smooth; scroll-padding-top: 90px; }
 body.dialog-open { overflow: hidden; }
-.brand-link { display: contents; }
+.brand-link { display: inline-flex; flex: none; align-items: center; }
 .brand-link:focus-visible img { outline: 2px solid #c32f2f; outline-offset: 5px; }
 :where(a, button, input, textarea):focus-visible { outline: 2px solid #c32f2f; outline-offset: 4px; }
 .skip-link { position: fixed; top: 8px; left: 8px; z-index: 99999; padding: 12px 18px; background: white; color: #9a2525; transform: translateY(-150%); }
